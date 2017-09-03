@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
 })
 ```
 <p align="center">
-<img alt="TrumpTweetTrumps" title="TrumpTweetTrumps" src="https://github.com/redpandatronicsuk/react-native-censored/blob/master/demo/react-native-censor-demo.png"/>
+<img alt="demo" title="demo" src="https://github.com/redpandatronicsuk/react-native-censored/blob/master/demo/react-native-censor-demo.png"/>
 </p>
 
 ### Parameters
