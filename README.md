@@ -75,6 +75,6 @@ const styles = StyleSheet.create({
 
 
 ### Who uses react-native-censored
-<p align="center">
-<img alt="TrumpTweetTrumps" title="TrumpTweetTrumps" src="https://github.com/redpandatronicsuk/react-native-censored/blob/master/stuff/new-android-logo-05.png"/>
+<p align="center"><a href="https://trumptweettrumps.com/">
+<img alt="TrumpTweetTrumps" title="TrumpTweetTrumps" src="https://github.com/redpandatronicsuk/react-native-censored/blob/master/stuff/new-android-logo-05.png"/></a>
 </p>
