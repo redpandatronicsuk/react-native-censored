@@ -1,0 +1,30 @@
+{
+    "name": "react-native-censored",
+    "version": "0.1.0",
+    "description": "React Native component to censor app content",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/redpandatronicsuk/react-native-censored.git"
+    },
+    "keywords": [
+        "react",
+        "native",
+        "censor"
+    ],
+    "author": "RedPandaTronics LTD",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/redpandatronicsuk/react-native-censored/issues"
+    },
+    "homepage": "https://github.com/redpandatronicsuk/react-native-censored#readme",
+    "peerDependencies": {
+        "react-native": ">=0.46.0",
+        "react": "16.0.0-alpha.12",
+        "react-native-svg": "^5.4.1",
+        "react-native-blurview": "^1.0.1"
+    }
+}
