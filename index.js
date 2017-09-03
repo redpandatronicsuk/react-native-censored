@@ -1,5 +1,3 @@
 export { default as Censored } from './Censored'
 export { default as CensoredStamp } from './CensoredStamp'
-export { default as CensoredExpo } from './CensoredExpo'
-export { default as CensoredStampExpo } from './CensoredStampExpo'
 export * from './styles'
