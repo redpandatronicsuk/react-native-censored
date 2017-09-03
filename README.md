@@ -7,34 +7,27 @@ The Apple AppStore and Google PlayStore have similar - yet different - guideline
 `react-native-censored` uses [react-native-blur](https://github.com/react-native-community/react-native-blur) to achieve the blur effect and [react-native-svg](https://github.com/react-native-community/react-native-svg) to display the censored stamp. If you are using [Expo](https://expo.io/) you already have these dependencies pre-installed. If your app is not using Expo you will have to install `react-native-blur` and `react-native-svg` before you can use `react-native-censored`.
 
 ## Usage
-### import
-#### Expo
-```js
-import { CensoredExpo } from './react-native-censored'
-```
-#### Non-Expo
-```js
-import { CensoredExpo } from './react-native-censored'
-```
 ### Example
 
 ```jsx
 import React from 'react'
 import { Dimensions, Image, StyleSheet, Text, View } from 'react-native'
-import { CensoredExpo } from './react-native-censored'
+import { Censored } from 'react-native-censored'
+// For Expo apps use line below instead of above line:
+// import { Censored } from 'react-native-censored/expo'
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <CensoredExpo intensity={100} scale={.75} rotate="45deg" fill="black" platforms={['isisos']} >
+        <Censored intensity={100} scale={.75} rotate="45deg" fill="black" platforms={['isisos']} >
           <Text style={styles.imageTitle}>Jesus Christ</Text>
           <Image source={require('./assets/uncensored.jpg')} style={styles.image} />
-        </CensoredExpo>
-        <CensoredExpo intensity={100} scale={.75} rotate="45deg" platforms={['ios', 'android']} >
+        </Censored>
+        <Censored intensity={100} scale={.75} rotate="45deg" platforms={['ios', 'android']} >
           <Text style={styles.imageTitle}>Prophet Muhammad</Text>
           <Image source={require('./assets/censored.jpg')} style={styles.image} />
-        </CensoredExpo>
+        </Censored>
       </View>
     )
   }
