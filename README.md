@@ -1,4 +1,6 @@
 # react-native-censored
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/redpandatronicsuk/react-native-censored.svg)](https://greenkeeper.io/)
 `react-native-censored` is a tool for quickly censoring potentially objectionable content in your app so it conforms to the guidelines of the app market you are publishing too.
 
 The Apple AppStore and Google PlayStore have similar - yet different - guidelines, Google's guidelines generally being more lenient. React Native apps share most (if not all) code between the iOS and Android app and it becomes hard having to manage different content. `react-native-censored` lets you easily censor content for specific platforms.
